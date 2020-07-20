@@ -5,7 +5,7 @@ trap 'printf "\n";stop' 2
 
 banner() {
 
-printf "\e[1;77m SUBSCRIBE TO YOUTUBE CHANNEL "THE CYBER KIDDIE" \e[0m \n"
+printf "\e[1;77m SUBSCRIBE TO YOUTUBE CHANNEL "THECYBERKIDDIE" \e[0m \n"
 printf "\e[1;77m v2.0 Coded By Prahlad Shukla \e[0m \n"
 
 }
